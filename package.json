@@ -1,0 +1,25 @@
+{
+  "name": "todo-app-main",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)",
+  "main": "app.js",
+  "scripts": {
+    "server:dev": "cd server && npm run dev",
+		"database": "cd database && npm run api",
+    "client:dev": "cd client && npm run dev",
+    "client:preview": "cd client && npm run preview",
+    "client:build": "cd client && npm run build",
+
+    "preview": "concurrently \"npm run client:preview\" \"npm run server:dev \"",
+    "start": "concurrently \"npm run client:dev\"  \"npm run server:dev\" \"npm run database\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "express-ip": "^1.0.4"
+  }
+}

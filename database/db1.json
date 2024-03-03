@@ -1,0 +1,70 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Create to do application",
+      "desc": "Lorem bla bla bla",
+      "isCompleted": false
+    },
+    {
+      "id": "2",
+      "title": "Read Vue 3 Docs",
+      "desc": "Lorem ipsum dolor sit amet",
+      "isCompleted": false
+    },
+    {
+      "id": "3",
+      "title": "Todo numbe three",
+      "desc": "",
+      "isCompleted": true
+    },
+    {
+      "id": 4,
+      "title": "sfjskj",
+      "desc": "jhfskjf",
+      "isCompleted": false
+    },
+    {
+      "id": 5,
+      "title": "fjshfskf",
+      "desc": "jsfhskfhs",
+      "isCompleted": false
+    },
+    {
+      "id": 5,
+      "title": "Test",
+      "desc": "test desc",
+      "isCompleted": false
+    },
+    {
+      "id": 5,
+      "title": "Test",
+      "desc": "test desc",
+      "isCompleted": false
+    },
+    {
+      "id": 6,
+      "title": "Norem",
+      "desc": "NOrem yoyo",
+      "isCompleted": false
+    },
+    {
+      "id": 6,
+      "title": "Beka",
+      "desc": "XAN",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "dfgfhfd",
+      "desc": "fhfgjg",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "dfgjkdgj",
+      "desc": "dgyuhvbsiuyfe",
+      "completed": false
+    }
+  ]
+}
